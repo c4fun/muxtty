@@ -4,7 +4,7 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/yudai/gotty/server"
+	"github.com/c4fun/muxtty/server"
 )
 
 type Options struct {

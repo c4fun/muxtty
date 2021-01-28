@@ -4,9 +4,9 @@
 [![Wercker](http://img.shields.io/wercker/ci/55d0eeff7331453f0801982c.svg?style=flat-square)][wercker]
 [![MIT License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)][license]
 
-[release]: https://github.com/yudai/gotty/releases
+[release]: https://github.com/c4fun/muxtty/releases
 [wercker]: https://app.wercker.com/project/bykey/03b91f441bebeda34f80e09a9f14126f
-[license]: https://github.com/yudai/gotty/blob/master/LICENSE
+[license]: https://github.com/c4fun/muxtty/blob/master/LICENSE
 
 GoTTY is a simple command line tool that turns your CLI tools into web applications.
 
@@ -14,7 +14,7 @@ GoTTY is a simple command line tool that turns your CLI tools into web applicati
 
 # Installation
 
-Download the latest stable binary file from the [Releases](https://github.com/yudai/gotty/releases) page. Note that the release marked `Pre-release` is built for testing purpose, which can include unstable or breaking changes. Download a release marked [Latest release](https://github.com/yudai/gotty/releases/latest) for a stabale build.
+Download the latest stable binary file from the [Releases](https://github.com/c4fun/muxtty/releases) page. Note that the release marked `Pre-release` is built for testing purpose, which can include unstable or breaking changes. Download a release marked [Latest release](https://github.com/c4fun/muxtty/releases/latest) for a stabale build.
 
 (Files named with `darwin_amd64` are for Mac OS X users)
 
@@ -31,7 +31,7 @@ $ brew install yudai/gotty/gotty
 If you have a Go language environment, you can install GoTTY with the `go get` command. However, this command builds a binary file from the latest master branch, which can include unstable or breaking changes. GoTTY requires go1.9 or later.
 
 ```sh
-$ go get github.com/yudai/gotty
+$ go get github.com/c4fun/muxtty
 ```
 
 # Usage
@@ -94,7 +94,7 @@ preferences {
 }
 ```
 
-See the [`.gotty`](https://github.com/yudai/gotty/blob/master/.gotty) file in this repository for the list of configuration options.
+See the [`.gotty`](https://github.com/c4fun/muxtty/blob/master/.gotty) file in this repository for the list of configuration options.
 
 ### Security Options
 

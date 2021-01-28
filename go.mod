@@ -1,4 +1,4 @@
-module github.com/yudai/gotty
+module github.com/c4fun/muxtty
 
 go 1.13
 
